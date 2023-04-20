@@ -1,6 +1,6 @@
 {
     "type": "library",
-    "name": "nguyenanhung/template-backend-package",
+    "name": "huynq/social-login",
     "description": "Structure Repository Template for Backend API Service Package",
     "keywords": [
         "backend",
