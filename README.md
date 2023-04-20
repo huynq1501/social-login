@@ -51,7 +51,7 @@ Finally, your edit file `composer.json` in root folder of project
     },
     "autoload": {
         "psr-4": {
-            "nguyenanhung\\Backend\\Your_Project\\": "src/"
+            "nguyenanhung\\Backend\\BaseAPI\\": "src/"
         },
         "files": [
             "helpers/helpers.php"
