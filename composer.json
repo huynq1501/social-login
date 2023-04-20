@@ -1,6 +1,6 @@
 {
     "type": "library",
-    "name": "nguyenanhung/template-backend-package",
+    "name": "huynq/social-login",
     "description": "Structure Repository Template for Backend API Service Package",
     "keywords": [
         "backend",
@@ -10,7 +10,7 @@
     ],
     "homepage": "https://github.com/nguyenanhung/template-backend-package",
     "license": "MIT",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Nguyen An Hung",
@@ -25,7 +25,9 @@
         "ext-json": "*",
         "ext-mbstring": "*",
         "nguyenanhung/framework": "^1.0",
-        "lcobucci/jwt": "^4.1 || ^4.0 || ^3.4.6"
+        "lcobucci/jwt": "^4.1 || ^4.0 || ^3.4.6",
+        "league/oauth2-google": "^4.0",
+        "league/oauth2-facebook": "^2.2"
     },
     "require-dev": {
         "nguyenanhung/upload": "^2.0",
@@ -34,7 +36,7 @@
     },
     "autoload": {
         "psr-4": {
-            "nguyenanhung\\Backend\\Your_Project\\": "src/"
+            "nguyenanhung\\Backend\\BaseAPI\\": "src/"
         },
         "files": [
             "helpers/helpers.php"
